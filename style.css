@@ -1,0 +1,90 @@
+body{
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+.login-conatiner{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255,0.6);
+
+}
+.login-form, h2{
+    color: #333;
+}
+.login-form{
+    color: #666;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+.input-group label{
+    display: block;
+    color: #333;
+}
+.input-group,input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+.forgot-password{
+    text-align: right;
+}
+.forgot-password a{
+    color: blue;
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border : none;
+    border-radius: 4px;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #005603
+}
+.alternative-login{
+    text-align: center;
+    margin-top: 20px;
+}
+.alternative-login button{
+background-color: black;
+margin-top: 10px;
+
+}
+.alternative-login .google-signin:hover {
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
